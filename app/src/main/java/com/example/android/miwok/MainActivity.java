@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         TextView numbers = (TextView) findViewById(R.id.numbers);
 
         // Set a click listener on that View
+        assert numbers != null;
         numbers.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         TextView family = (TextView) findViewById(R.id.family);
 
         // Set a click listener on that View
+        assert family != null;
         family.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the family category is clicked on.
             @Override
@@ -67,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         TextView colors = (TextView) findViewById(R.id.colors);
 
         // Set a click listener on that View
+        assert colors != null;
         colors.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the colors category is clicked on.
             @Override
@@ -83,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         TextView phrases = (TextView) findViewById(R.id.phrases);
 
         // Set a click listener on that View
+        assert phrases != null;
         phrases.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the phrases category is clicked on.
             @Override
